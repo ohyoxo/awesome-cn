@@ -606,6 +606,7 @@ _Data stores with expiring records, in-memory distributed data stores, or in-mem
 - [pogreb](https://github.com/akrylysov/pogreb) - Embedded key-value store for read-heavy workloads.
 - [prometheus](https://github.com/prometheus/prometheus) - Monitoring system and time series database.
 - [pudge](https://github.com/recoilme/pudge) - Fast and simple key/value store written using Go's standard library.
+- [redka](https://github.com/nalgeon/redka) - Redis re-implemented with SQLite.
 - [rosedb](https://github.com/roseduan/rosedb) - An embedded k-v database based on LSM+WAL, supports string, list, hash, set, zset.
 - [rotom](https://github.com/xgzlucario/rotom) - A tiny Redis server built with Golang, compatible with RESP protocols.
 - [rqlite](https://github.com/rqlite/rqlite) - The lightweight, distributed, relational database built on SQLite.
@@ -1316,7 +1317,6 @@ _Libraries for programming devices of the IoT._
 ## Job Scheduler
 
 _Libraries for scheduling jobs._
-
 - [Cadence-client](https://github.com/uber-go/cadence-client) - A framework for authoring workflows and activities running on top of the Cadence orchestration engine made by Uber.
 - [cdule](https://github.com/deepaksinghvi/cdule) - Job scheduler library with database support
 - [cheek](https://github.com/datarootsio/cheek) - A simple crontab like scheduler that aims to offer a KISS approach to job scheduling.
@@ -1326,6 +1326,7 @@ _Libraries for scheduling jobs._
 - [go-cron](https://github.com/rk/go-cron) - Simple Cron library for go that can execute closures or functions at varying intervals, from once a second to once a year on a specific date and time. Primarily for web applications and long running daemons.
 - [go-dag](https://github.com/rhosocial/go-dag) - A framework developed in Go that manages the execution of workflows described by directed acyclic graphs.
 - [go-quartz](https://github.com/reugn/go-quartz) - Simple, zero-dependency scheduling library for Go.
+- [go-taskflow](https://github.com/noneback/go-taskflow) - A taskflow-like Programmatic DAG Task Execution Framework with integrated visualizer and profiler.
 - [gocron](https://github.com/go-co-op/gocron) - Easy and fluent Go job scheduling. This is an actively maintained fork of [jasonlvhit/gocron](https://github.com/jasonlvhit/gocron).
 - [goflow](https://github.com/fieldryand/goflow) - A simple but powerful DAG scheduler and dashboard.
 - [gron](https://github.com/roylee0704/gron) - Define time-based tasks using a simple Go API and Gron’s scheduler will run them accordingly.
@@ -2593,6 +2594,7 @@ _General utilities and tools to make your life easier._
 - [go-convert](https://github.com/Eun/go-convert) - Package go-convert enables you to convert a value into another type.
 - [go-countries](https://github.com/mikekonan/go-countries) - Lightweight lookup over ISO-3166 codes.
 - [go-dry](https://github.com/ungerik/go-dry) - DRY (don't repeat yourself) package for Go.
+- [go-events](https://github.com/deatil/go-events) - A go event and event'subscribe package, like wordpress hook functions.
 - [go-funk](https://github.com/thoas/go-funk) - Modern Go utility library which provides helpers (map, find, contains, filter, chunk, reverse, ...).
 - [go-health](https://github.com/Talento90/go-health) - Health package simplifies the way you add health check to your services.
 - [go-httpheader](https://github.com/mozillazg/go-httpheader) - Go library for encoding structs into Header fields.

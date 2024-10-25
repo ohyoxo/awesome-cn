@@ -354,6 +354,7 @@ become an Angular expert.
 * [angular-google-tag-manager](https://github.com/mzuccaroli/angular-google-tag-manager) - A service library for integrate google tag manager in your angular project.
 * [litlyx](https://github.com/Litlyx/litlyx) - The easiest dev-centric analytics tool. Litlyx is an open-source analytics solution for any JavaScript framework. Setup takes less then 30 seconds and just one line of code!
 * [plausible](https://github.com/plausible/analytics) - Simple, open source, lightweight (< 1 KB) and privacy-friendly web analytics alternative to Google Analytics. Works without any extra configuration on [single page applications](https://plausible.io/docs/spa-support).
+* [@blue-cardinal/ngx-google-analytics](https://github.com/blue-cardinal/ngx-google-analytics) - This package provides a module that injects the Google Analytics tag manager script into your Angular project. It provides some guard rails against including the tag manager script in a dev environment.
 
 #### Authentication
 
@@ -501,6 +502,7 @@ become an Angular expert.
 * [ng-http-loader](https://github.com/mpalourdio/ng-http-loader) - Smart Angular HTTP interceptor - Intercepts automagically HTTP requests and shows a spinkit spinner / loader / progress bar.
 * [ngx-signalify](https://github.com/alcfeoh/ngx-signalify) - A small library to convert RxJs Observables into Angular Signals.
 * [angular-odata](https://github.com/diegomvh/angular-odata) - A fluent API for querying, creating, updating and deleting OData resources in Angular.
+* [ngx-http-retry](https://github.com/itpixelz/ngx-http-retry) - An Angular service that provides HTTP methods (GET, POST, PUT, DELETE) with built-in retry logic using RxJS's `retry` operator.
 
 #### Integrations
 
@@ -765,6 +767,15 @@ become an Angular expert.
 * [ngx-connection-beam](https://github.com/omnedia/ngx-connection-beam) - An Angular component that dynamically renders animated connection lines between two elements.
 * [ngx-countUp](https://github.com/inorganik/ngx-countUp) - Animates a numerical value by counting to it.
 
+#### Breadcrumbs
+
+* [xng-breadcrumb](https://github.com/udayvunnam/xng-breadcrumb) - Zero config breadcrumb solution. A lightweight, configurable and reactive breadcrumbs for Angular 6 and beyond.
+* [olt-ngx-breadcrumbs](https://github.com/OuterlimitsTech/olt-ngx-breadcrumbs) - Angular Library for generating breadcrumbs based on the routing state.
+* [ngx-breadcrumpy](https://github.com/dirkluijk/ngx-breadcrumpy) - An awesome library to easily add breadcrumbs to your Angular application.
+* [ngx-crumbs](https://github.com/henczi/ngx-crumbs) - An ultimate breadcrumbs service for Angular.
+* [breadcrumbs](https://github.com/ez-ng/breadcrumbs) - An angular component that automatically lists breadcrumbs based on the currently routed components.
+* [ngx-breadcrumb](https://github.com/code-workers-io/ngx-breadcrumb) - A highly customizable and flexible breadcrumb component for Angular.
+
 #### Calendars
 
 * [angular-calendar](https://github.com/mattlewis92/angular-calendar) - A flexible calendar component for angular 6.0+ that can display events on a month, week or day view.
@@ -896,6 +907,7 @@ become an Angular expert.
 * [ngx-func-pipe](https://github.com/ko1ebayev/ngx-func-pipe) - A simple and lightweight Angular pipe that allows you to call a function directly from your Angular templates.
 * [ngx-pipes-toolkit](https://github.com/SlyTed/ngx-pipes-toolkit) - A complementary pipes library for Angular.
 * [ngx-nullish](https://github.com/piecioshka/ngx-nullish) - Angular Structural Directive, which replaces `*ngIf` with Nullish Coalescing operator.
+* [ngx-interpolation](https://github.com/yassine-klilich/ngx-interpolation) - An Angular lightweight library to interprate string interpolation expressions.
 
 #### Drag and Drop
 
@@ -945,6 +957,7 @@ become an Angular expert.
 * [ngx-custom-material-file-input](https://github.com/daemons88/ngx-custom-material-file-input) - File input management for Angular Material.
 * [ngxf-uploader](https://github.com/ZouYouShun/ngxf-uploader) - File uploader for Angular 18+.
 * [ngx-dropzone-wrapper](https://github.com/zefoy/ngx-dropzone-wrapper) - Angular wrapper library for [Dropzone](https://www.dropzone.dev/).
+* [ngx-fileupload](https://github.com/r-hannuschka/ngx-fileupload) - [ngx-file-upload/core](https://github.com/r-hannuschka/ngx-fileupload/tree/master/src/projects/core) only contains services and classes to enable file upload with Angular. [ngx-file-upload/ui](https://github.com/r-hannuschka/ngx-fileupload/tree/master/src/projects/ui) contains components and pipes to provide a UI.
 
 #### Forms
 
@@ -994,6 +1007,7 @@ become an Angular expert.
 * [olt-ngx-ui-switch](https://github.com/OuterlimitsTech/olt-ngx-ui-switch) - NGX UI Switch (Forked) to latest version of Angular.
 * [auto-complete](https://github.com/ng2-ui/auto-complete) - Angular Auto Complete component and directive.
 * [ngx-otp-input](https://github.com/pkovzz/ngx-otp-input) - One time password input library for Angular.
+* [ngx-show-hide-password](https://github.com/osahner/ngx-show-hide-password) - Add split input button to password or text input. Toggles input type between "text" and "password".
 
 ##### Validation
 
@@ -1006,6 +1020,7 @@ become an Angular expert.
 * [error-tailor](https://github.com/ngneat/error-tailor) - Making sure your tailor-made error solution is seamless!
 * [ngx-validator-pack](https://github.com/dynimorius/ngx-validator-pack) - A collection of validators designed
 to simplify usage and allow quick customization.
+* [ngx-error-msg](https://github.com/fakeJan499/ngx-error-msg) - The error message mapping library for Angular.
 
 #### Icons
 
@@ -1182,6 +1197,7 @@ to simplify usage and allow quick customization.
 * [ngx-notifier](https://github.com/sibiraj-s/ngx-notifier) - A Simple Notification Service for Angular applications.
 * [angular-notification](https://github.com/lazycuh/angular-notification) - A singleton, global Angular service to programmatically show notifications.
 * [ngx-toastr-message](https://github.com/One-Zero-Code/ngx-toastr-message) - A lightweight, customizable Angular library for displaying toast notifications.
+* [ngx-french-toast](https://github.com/thiagopg84/ngx-french-toast) - A lightweight and customizable toast library for your Angular 14+ applications. Show informative toast messages to enhance user experience and provide important feedback or collect data with dynamically imported components.
 
 #### QR Codes
 
@@ -1364,7 +1380,6 @@ for the creation of web applications developed with Angular.
 #### Misc Components
 
 * [ngx-countdown](https://github.com/cipchk/ngx-countdown) - Simple, easy and performant countdown.
-* [xng-breadcrumb](https://github.com/udayvunnam/xng-breadcrumb) - Zero config breadcrumb solution. A lightweight, configurable and reactive breadcrumbs for Angular 6 and beyond.
 * [ng-portal](https://github.com/nigrosimone/ng-portal) - Component property connection in Angular application.
 * [ng-lock](https://www.npmjs.com/package/ng-lock) - Angular decorator for lock a function and user interface while a task running.
 * [rx-computed](https://github.com/jscutlery/devkit/tree/main/packages/rx-computed) - The async RxJS-based version of signals' `computed()`.
@@ -1461,6 +1476,7 @@ for the creation of web applications developed with Angular.
 * [ng-event-bus](https://github.com/cristiammercado/ng-event-bus) - RxJS-based message bus service for Angular.
 * [audit-debounce](https://github.com/loreanvictor/audit-debounce) - RxJS operator to debounce and audit simultaenously.
 * [rxjs-typewriter](https://github.com/omnedia/rxjs-typewriter) - A lightweight and easy-to-use NPM library for creating typewriter effects in your web applications. It uses RxJS to manage the typewriting effect, ensuring smooth and customizable animations.
+* [ngx-safe-subscribe](https://github.com/Badisi/ngx-safe-subscribe) - Easy way to automatically unsubscribe from RxJS observables in Angular components.
 
 #### TypeScript
 
